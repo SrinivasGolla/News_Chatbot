@@ -1,0 +1,26 @@
+[
+  {
+    "id": "3a0630ff-ed7a-423b-8ee2-77fcd68872ca",
+    "data": [
+      {
+        "text": "Latest news",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529577329
+  },
+  {
+    "id": "0cc14c0b-bf70-4c99-93da-e306e108662f",
+    "data": [
+      {
+        "text": "Breaking news",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529577329
+  }
+]

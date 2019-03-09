@@ -1,0 +1,36 @@
+{
+  "id": "2107f707-0a2b-4d86-a230-07bd9458a046",
+  "name": "Business news",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\n\u003caudio src\u003d\"https://s3.amazonaws.com/bmlinterns/business+1.mp3 \"\u003edidn\u0027t get your MP3 audio file\u003c/audio\u003e\n\u003c/speak\u003e"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529577709,
+  "fallbackIntent": false,
+  "events": []
+}

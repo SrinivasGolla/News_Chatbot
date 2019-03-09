@@ -1,0 +1,28 @@
+{
+  "id": "edb49bec-4f6b-41bb-a01a-eeddeb9f734e",
+  "name": "Political News",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529577008,
+  "fallbackIntent": false,
+  "events": []
+}

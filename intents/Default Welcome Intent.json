@@ -1,0 +1,52 @@
+{
+  "id": "5b0aff8b-c594-4799-bda0-f424e28a5cca",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\n  Welcome to TV  9 \u003cbreak time\u003d\"500ms\"/\u003e\n  World number  one debate channel.... \u003cbreak time\u003d\"300ms\"/\u003e\nlatest .  \u003cbreak time\u003d\"300ms\"/\u003e\nworld .  \u003cbreak time\u003d\"500ms\"/\u003e\ninternational . \u003cbreak time\u003d\"300ms\"/\u003e\nnational .  \u003cbreak  time\u003d\"500ms\"/\u003e\npolitical .  \u003cbreak time\u003d\"300ms\"/\u003e\nlifestyle .  \u003cbreak  time\u003d\"500ms\"/\u003e\nBusiness .  \u003cbreak  time\u003d\"300ms\"/\u003e\nsports news.  \u003cbreak  time\u003d\"500ms\"/\u003e\n\nPlease choose one\u003cbreak  time\u003d\"500ms\"/\u003e\n\u003c/speak\u003e"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Latest news"
+            },
+            {
+              "title": "Entertainment news"
+            },
+            {
+              "title": "Business news"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530510797,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

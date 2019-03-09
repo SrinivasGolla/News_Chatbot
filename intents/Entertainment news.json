@@ -1,0 +1,35 @@
+{
+  "id": "7de3161a-f74a-4d19-91df-83a9427aecfc",
+  "name": "Entertainment news",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003e\n\u003caudio src\u003d\"https://s3.amazonaws.com/bmlinterns/entertainment+1.mp3\"\u003edidn\u0027t get your MP3 audio file\u003c/audio\u003e\n\u003c/speak\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529577998,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "FACEBOOK_LOCATION"
+    }
+  ]
+}
